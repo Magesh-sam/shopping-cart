@@ -1,0 +1,27 @@
+.products{
+
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 80px;
+}
+.productcard{
+    height: 450px;
+    width: 280px;
+    padding: 25px;
+    scale:1;
+}
+
+.productimg{
+    width: 325px;
+    height: 300px;
+    object-fit: contain!important;
+}
+.productdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+

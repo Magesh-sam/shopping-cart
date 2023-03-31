@@ -1,0 +1,24 @@
+.cartimg{
+    width: 150px;
+    height: 150px;
+    /* object-fit: contain; */
+}
+.closecart:hover,.deletebtn:hover{
+    background: red!important;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.quantitybtn:hover{
+    background: #fd5 !important;
+}
+.checkout{
+    padding-bottom: 100px!important;
+}
+
+
+@media (width<=640px) {
+    #cartitemwrapper{
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+}
